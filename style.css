@@ -1,0 +1,27 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+#app {
+	display: flex;
+	height: 100vh;
+	background-color: pink;
+	padding: 50px;
+}
+.container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+span {
+	margin: 50px;
+	font-size: 20px;
+}
+button {
+	height: 25px;
+	width: 25px;
+	font-size: 20px;
+	margin: 25px;
+}
